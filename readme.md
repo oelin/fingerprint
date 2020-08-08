@@ -1,1 +1,1 @@
-Little web page which performs canvas fingerprinting. [Here](https://canvas-fingerprint.web.app)
+A [tiny web page](https://canvas-fingerprint.web.app) which performs canvas fingerprinting.

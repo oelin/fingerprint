@@ -1,6 +1,6 @@
 # Fingerprint
 
-This tiny web page allows you to instantly generate a canvas fingerprint for your browser. It's a great tool for testing the extent to which your browser confiiguration is susceptible to cross-site tracking via canvas-based fingerprinting techniques. This implementaton really is *tiny*, with the core fingerprinting code only requiring about 300 bytes.
+Fingerprint is a tiny web page which lets you instantly generate [canvas fingerprints](https://en.wikipedia.org/wiki/Canvas_fingerprinting) for your browser! This is useful in discovering the extent to which your browser is susceptible to cross-site tracking via canvas-based techniques. The implementation really is *tiny*, with the core fingerprinting code only requiring about 300 bytes. 
 
 <img src='./fingerprint.png'>
 
@@ -11,7 +11,7 @@ This tiny web page allows you to instantly generate a canvas fingerprint for you
 $ npx serve .
 ```
 
-You can also driectly copy-and-paste the code below into your projects to add fingerprinting functionality.
+You can also driectly copy-and-paste the code below into your projects to add fingerprinting functionality. Note that code requires a [secure execution context](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts) to run correctly.
 
 
 ```js

@@ -17,8 +17,6 @@ You can also driectly copy-and-paste the code below into your projects to add fi
 ```js
 async function createCanvasFingerprint() {
 
-	// Create a canvas context...
-
 	let canvasElement = document.createElement('canvas')
 	let canvasContext = canvasElement.getContext('2d')
 

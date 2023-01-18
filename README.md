@@ -4,19 +4,18 @@ This tiny web page allows you to instantly generate a canvas fingerprint for you
 
 <img src='./fingerprint.png'>
 
+
 ## Installation
 
 ```sh
 $ npx serve .
 ```
 
+You can also driectly copy-and-paste the code below into your projects to add fingerprinting functionality.
 
-## Implementation
-
-An unminified version of the core fingerprinting code is given below. Simply copy-and-paste this into your own projects to aquire the functionality.
 
 ```js
-(async function createCanvasFingerprint() {
+async function createCanvasFingerprint() {
 
 	// Create a canvas context...
 
@@ -37,7 +36,7 @@ An unminified version of the core fingerprinting code is given below. Simply cop
 	canvasFingerprint = btoa(canvasFingerprint)
 
 	return canvasFingerprint 
-})()
+}
 ```
 
 
